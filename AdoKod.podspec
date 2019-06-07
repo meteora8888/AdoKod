@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'AdoKod'
-s.version          = '0.1.2'
+s.version          = '0.1.3'
 s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
 
 s.description      = <<-DESC
@@ -8,7 +8,7 @@ This fantastic view changes its color gradually makes your app look fantastic!
 DESC
 
 s.swift_versions = '4.0'
-s.homepage         = 'https://github.com/meteora8888'
+s.homepage         = 'https://github.com/meteora8888/AdoKod.git'
 s.license          =  { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
