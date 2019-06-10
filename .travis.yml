@@ -9,7 +9,6 @@ directories:
 - ~/.danger-swift
 
 install:
-- npm install git+https://github.com/DefinitelyTyped/tsd -g
 # Grab the latest Danger JS from npm
 - npm install -g danger
 # Compile the Danger runtime
