@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
     }
     
-    func( ffe :  String )    {
+    func hello(  ffe:  String )    {
     
     }
 
