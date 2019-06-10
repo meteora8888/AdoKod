@@ -13,14 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
     }
     
-    func hello(  ffe:  String )    {
+    func hello(  ffe:  String ) {
     
     }
-
 
 }
 
