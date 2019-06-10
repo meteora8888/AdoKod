@@ -1,5 +1,21 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
 os: osx
+osx_image: xcode10.1
+
+cache:
+directories:
+# General SwiftPM
+# Danger Swift plugins, like Yams
+- .build
+- ~/.danger-swift
+
+install:
+# Grab the latest Danger JS from npm
+- npm install -g danger
+# Compile the Danger runtime
+- swift build
+
+script:
+# Run the Dangerfile.swift
+- swift run danger-swift ci
+# Test my app...
+- [your other commands]
