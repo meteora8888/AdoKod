@@ -7,7 +7,7 @@ s.description      = <<-DESC
 This fantastic view changes its color gradually makes your app look fantastic!
 DESC
 
-s.swift_versions = '4.0'
+s.swift_versions = '4.2'
 s.homepage         = 'https://github.com/meteora8888/AdoKod.git'
 s.license          =  { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
 Licensed under the Apache License, Version 2.0 (the "License");

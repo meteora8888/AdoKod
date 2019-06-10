@@ -14,7 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         
-
+        
+    }
+    
+    func( ffe :  String )    {
+    
     }
 
 
