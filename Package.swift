@@ -11,6 +11,6 @@ let package = Package(
        .package(url: "https://github.com/username/DangerPlugin.git", from: "0.1.0") // dev
     ],
     targets: [
-        .target(name: "AdoKod"), // dev
+        .target(name: "AdoKod", dependencies: ["Danger"], path: "Ado", sources: ["Stringify.swift"]),
     ]
 )
