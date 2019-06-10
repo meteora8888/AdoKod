@@ -1,6 +1,9 @@
 import Danger
 import DangerSwiftLint
 
+// SwiftLint.lint()
+SwiftLint.lint(inline: true, directory: "AdoKod", configFile: ".swiftlint.yml")
+
 let danger = Danger()
 let allSourceFiles = danger.git.modifiedFiles + danger.git.createdFiles
 
@@ -17,5 +20,3 @@ warn("Something pretty bad, but not important enough to fail the build")
 fail("Something that must be changed")
 
 markdown("Free-form markdown that goes under the table, so you can do whatever.")
-
-SwiftLint.lint()
