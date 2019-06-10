@@ -15,9 +15,8 @@ class ViewController: UIViewController {
 
     }
     
-    func hello(  ffe:  String ) {
+    func hello(nope: String) {
     
     }
 
 }
-
