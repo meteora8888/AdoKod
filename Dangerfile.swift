@@ -1,5 +1,4 @@
 import Danger
-import DangerSwiftLint
 
 // SwiftLint.lint()
 
