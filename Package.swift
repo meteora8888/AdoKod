@@ -5,9 +5,8 @@ let package = Package(
     name: "AdoKod",
     dependencies: [
        .package(url: "https://github.com/danger/swift.git", from: "1.0.0"), // dev
-       .package(url: "https://github.com/username/DangerPlugin.git", from: "0.1.0") // dev
     ],
     targets: [
-        .target(name: "AdoKod", dependencies: ["Danger","DangerPlugin"], path: "Ado", sources: ["Stringify.swift"]),
+        .target(name: "AdoKod", dependencies: ["Danger"], path: "Ado", sources: ["Stringify.swift"]),
     ]
 )
