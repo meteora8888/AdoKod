@@ -2,14 +2,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "Eigen",
+    name: "AdoKod",
+     products: [
+        .library(name: "DangerDeps[Product name (optional)]", type: .dynamic, targets: ["DangerDependencies"]), // dev
+    ],
     dependencies: [
-      .package(url: "https://github.com/danger/swift.git", from: "1.0.0")
+       .package(url: "https://github.com/danger/swift.git", from: "1.0.0"), // dev
+       .package(url: "https://github.com/username/DangerPlugin.git", from: "0.1.0") // dev
     ],
     targets: [
-        // This is just an arbitrary Swift file in our app, that has
-        // no dependencies outside of Foundation, the dependencies section
-        // ensures that the library for Danger gets build also.
-        .target(name: "eigen", dependencies: ["Danger"], path: "Artsy", sources: ["Stringify.swift"]),
+        .target(name: "DangerDependencies", dependencies: ["Danger", "DangerPlugin"]), // dev
     ]
 )
