@@ -17,9 +17,9 @@ let danger = Danger()
 //    fail(message: "Please add copyright header", file: file, line: 0)
 //}
 
-var bigPRThreshold = 600;
-if (danger.github.pullRequest.additions + danger.github.pullRequest.deletions > bigPRThreshold) {
-    warn('> Pull Request size seems relatively large. If this Pull Request contains multiple changes, please split each into separate PR will helps faster, easier review.');
-}
+//var bigPRThreshold = 600;
+//if (danger.github.pullRequest.additions + danger.github.pullRequest.deletions > bigPRThreshold) {
+//    warn('> Pull Request size seems relatively large. If this Pull Request contains multiple changes, please split each into separate PR will helps faster, easier review.');
+//}
 
 SwiftLint.lint(inline: true, configFile: ".swiftlint.yml")
