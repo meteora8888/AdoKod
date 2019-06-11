@@ -10,4 +10,4 @@ if !changelogChanged && sourceChanges != nil {
   warn("No CHANGELOG entry added.")
 }
 
-SwiftLint.lint(inline: true, configFile: ".swiftlint.yml")
+SwiftLint.lint(inline: true, configFile: ".swiftlint.yml", directory: "AdoKod")
