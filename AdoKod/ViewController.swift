@@ -14,17 +14,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
     }
-    
-    func hello(nope: String) {
-    
-    }
-    
-    func hello1(nope: String) {
-        
-    }
-    
-    func hello2(nope: String) {
-        
-    }
 
 }
