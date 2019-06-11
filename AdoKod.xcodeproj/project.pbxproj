@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		5D2B1E1B22A966E800340326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B1E1A22A966E800340326 /* AppDelegate.swift */; };
-		5D2B1E1D22A966E800340326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B1E1C22A966E800340326 /* ViewController.swift */; };
+		5D2B1E1D22A966E800340326 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B1E1C22A966E800340326 /* Extensions.swift */; };
 		5D2B1E2022A966E800340326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B1E1E22A966E800340326 /* Main.storyboard */; };
 		5D2B1E2222A966EB00340326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B1E2122A966EB00340326 /* Assets.xcassets */; };
 		5D2B1E2522A966EB00340326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B1E2322A966EB00340326 /* LaunchScreen.storyboard */; };
+		D0193D9C89B5DDB68C31BC15 /* Pods_AdoKod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D333AF96C054E339E01626F /* Pods_AdoKod.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		407101191A390B92EE4A4EEE /* Pods-AdoKod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdoKod.debug.xcconfig"; path = "Target Support Files/Pods-AdoKod/Pods-AdoKod.debug.xcconfig"; sourceTree = "<group>"; };
+		4D333AF96C054E339E01626F /* Pods_AdoKod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdoKod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2B1E1722A966E800340326 /* AdoKod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdoKod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D2B1E1A22A966E800340326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D2B1E1C22A966E800340326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D2B1E1C22A966E800340326 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5D2B1E1F22A966E800340326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D2B1E2122A966EB00340326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D2B1E2422A966EB00340326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D2B1E2622A966EB00340326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E1EDED04E173D90C8C2185 /* Pods-AdoKod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdoKod.release.xcconfig"; path = "Target Support Files/Pods-AdoKod/Pods-AdoKod.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0193D9C89B5DDB68C31BC15 /* Pods_AdoKod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AD6F561F6CD00F4D05FD753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				407101191A390B92EE4A4EEE /* Pods-AdoKod.debug.xcconfig */,
+				A4E1EDED04E173D90C8C2185 /* Pods-AdoKod.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5D2B1E0E22A966E800340326 = {
 			isa = PBXGroup;
 			children = (
 				5D2B1E1922A966E800340326 /* AdoKod */,
 				5D2B1E1822A966E800340326 /* Products */,
+				5AD6F561F6CD00F4D05FD753 /* Pods */,
+				AEDDA36BEA71788DE9D55B04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,21 @@
 			isa = PBXGroup;
 			children = (
 				5D2B1E1A22A966E800340326 /* AppDelegate.swift */,
-				5D2B1E1C22A966E800340326 /* ViewController.swift */,
+				5D2B1E1C22A966E800340326 /* Extensions.swift */,
 				5D2B1E1E22A966E800340326 /* Main.storyboard */,
 				5D2B1E2122A966EB00340326 /* Assets.xcassets */,
 				5D2B1E2322A966EB00340326 /* LaunchScreen.storyboard */,
 				5D2B1E2622A966EB00340326 /* Info.plist */,
 			);
 			path = AdoKod;
+			sourceTree = "<group>";
+		};
+		AEDDA36BEA71788DE9D55B04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D333AF96C054E339E01626F /* Pods_AdoKod.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D2B1E2922A966EB00340326 /* Build configuration list for PBXNativeTarget "AdoKod" */;
 			buildPhases = (
+				3FA5B8F9475873AD173303FD /* [CP] Check Pods Manifest.lock */,
 				5D2B1E1322A966E800340326 /* Sources */,
 				5D2B1E1422A966E800340326 /* Frameworks */,
 				5D2B1E1522A966E800340326 /* Resources */,
+				D5D636874DE5FDE33D5AA06C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +157,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FA5B8F9475873AD173303FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdoKod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5D636874DE5FDE33D5AA06C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdoKod/Pods-AdoKod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdoKod/Pods-AdoKod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdoKod/Pods-AdoKod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D2B1E1322A966E800340326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D2B1E1D22A966E800340326 /* ViewController.swift in Sources */,
+				5D2B1E1D22A966E800340326 /* Extensions.swift in Sources */,
 				5D2B1E1B22A966E800340326 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +349,7 @@
 		};
 		5D2B1E2A22A966EB00340326 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407101191A390B92EE4A4EEE /* Pods-AdoKod.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +368,7 @@
 		};
 		5D2B1E2B22A966EB00340326 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E1EDED04E173D90C8C2185 /* Pods-AdoKod.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
