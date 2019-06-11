@@ -10,8 +10,9 @@ directories:
 
 install:
 # Grab the latest Danger JS from npm
-- npm install -g danger
 - gem install danger-slack
+- npm install -g danger
+
 # - brew install swiftlint # This is for the Danger SwiftLint plugin. If not installed yet
 # Compile the Danger runtime
 - swift build
