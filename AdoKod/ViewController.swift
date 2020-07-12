@@ -15,6 +15,7 @@ class ViewController: UIViewController {
 
         print("This I am going to merge")
         print("This I am going to here")
+        print("This I am going and there")
     }
 
 }
