@@ -13,13 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-
-
-
-
-
-        print("Hello")
+        print("This I am going to merge")
     }
 
 }
