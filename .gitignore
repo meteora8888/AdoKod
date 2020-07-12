@@ -5,6 +5,8 @@
 *.lock
 profile
 *.profraw
+*.xcuserstate
+/Users/andrejjasso/repos/AdoKod/AdoKod.xcodeproj/project.xcworkspace/xcuserdata/andrejjasso.xcuserdatad
 
 #####
 # DotEnv files
