@@ -13,9 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-
-        
+        print("This I am going to merge")
+        print("This I am going to here")
+        print("This I am going and there")
+        print("This I am going to and there too")
     }
 
 }
